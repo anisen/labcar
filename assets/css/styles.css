@@ -29,6 +29,55 @@
 }
 
 #contenido{
-	height: 300px;
+	height: 350px;
 	background-color: #f7b617;
+	margin-top: 100px;
+}
+
+/* I N F O R M A C I O N */
+
+#fondo-info{
+	background-color: #f7b617;
+	height: 500px;
+}
+#contenedor-info{
+	background-color: #f7b617;
+	border: 1px solid white;
+	border-left: none;
+    width: 1000px;
+	height: 430px;
+	margin-top: 40px;
+}
+#contenedor-info img{
+	margin-top: 50px;
+	margin-left: 70px;
+}
+#texto-info{
+	margin-top: 35px;
+	margin-left: 70px;
+	color: white;
+}
+#texto-info p{
+	font-size: 23px;
+}
+#texto-info h1{
+	padding-bottom: 10px;
+}
+
+/* C O N D U C E */
+
+#img-conduce{
+	background-image: url(../image/img/conduce.jpg);
+	background-size: cover;
+	height: 400px;
+	background-position: center;
+}
+#fondoInfo-conduce{
+	background-color: rgba(0, 0, 0, 0.64);
+	height: 400px;
+	position: relative;
+	bottom: 20px;
+}
+#info-conduce{
+	color: white;
 }
