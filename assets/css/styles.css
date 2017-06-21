@@ -44,7 +44,7 @@
 	background-color: #f7b617;
 	border: 1px solid white;
 	border-left: none;
-    width: 1000px;
+	width: 1000px;
 	height: 430px;
 	margin-top: 40px;
 }
@@ -80,4 +80,49 @@
 }
 #info-conduce{
 	color: white;
+}
+
+/* T A R I F A S */
+
+#contenedor-tarifas{
+	background-color: #f7b617;
+	height: 500px;
+}
+.info-mapa{
+	color: white;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.info-mapa h1{
+	padding-bottom: 15px;
+}
+.info-mapa h4{
+	padding-bottom: 20px;
+}
+.info-mapa button{
+	border-style: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: #2b2b2b;
+	margin-left: 50px;
+	width: 150px;
+}
+.div-inputs{
+	padding-bottom: 20px;
+}
+.div-inputs span{
+	font-size: 20px;
+}
+.div-inputs input{
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color:#f7b617;
+	padding: 10px;
+	color: white;
+}
+.cuadrado-map{
+	border: 2px solid white;
+	padding: 10px;
+	height: 400px;
+	margin-top: 70px;
 }
