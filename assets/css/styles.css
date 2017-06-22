@@ -28,6 +28,7 @@
 	background-position:center bottom;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	padding:0;
 }
 
 #contenido{
@@ -70,11 +71,22 @@
 	width: 130px;
 }
 
+/* version mobile*/
+.hero-responsive{
+	color: white;
+	height: 150px;
+	text-align: center;
+}
+.hero-responsive button{
+	font-size: 20px;
+}
+
 /* I N F O R M A C I O N */
 
 #fondo-info{
 	background-color: #f7b617;
 	height: 500px;
+	padding: 0;
 }
 #contenedor-info{
 	background-color: #f7b617;
@@ -85,8 +97,7 @@
 	color: white;
 }
 #contenedor-info img{
-	margin-top: 50px;
-	margin-left: 70px;
+	margin:30px;
 }
 #texto-info{
 	margin-top: 35px;
@@ -107,16 +118,17 @@
 	background-size: cover;
 	height: 400px;
 	background-position: center;
+	padding: 0;
 }
+
 #fondoInfo-conduce{
 	background-color: rgba(0, 0, 0, 0.64);
 	height: 400px;
-	margin-left: 785px;
 }
 #info-conduce{
 	color: white;
-	margin-top: 100px;
-	margin-left: 50px;
+	padding-top: 80px;
+	padding-left: 20px;
 }
 #info-conduce p{
 	font-size: 16px;
@@ -157,7 +169,6 @@
 }
 .div-inputs{
 	padding-bottom: 20px;
-	width: 550px;
 }
 .div-inputs span{
 	font-size: 20px;
@@ -168,6 +179,8 @@
 	background-color:#f7b617;
 	padding: 10px;
 	color: white;
+	width: 300px;
+	margin-left: 10px;
 }
 .cuadrado-map{
 	border: 2px solid white;

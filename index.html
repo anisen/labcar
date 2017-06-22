@@ -35,7 +35,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 col-xs-12 contenedor-img1">
-					<div class="col-md-offset-7">
+					<div class="col-md-offset-8 col-xs-offset-1 col-lg-offset-8">
 						<div id="contenido">
 							<div class="hidden-xs estilo-desktop">
 								<h1>Disfruta el viaje</h1>
@@ -53,9 +53,9 @@
 								</div>
 								<button>Conviértete en conductor</button>
 							</div>
-							<div class="hidden-md hidden-lg hero-responsive">
+							<div class="hidden-md hidden-lg hero-responsive col-xs-offset-1">
 								<h1>Comienza a viajar con <img src="assets/image/img/logo-blanco.png"></h1>
-								<button>Conviértete en conductor</button>
+								<button>Descarga la app</button>
 							</div>
 						</div>
 					</div>
@@ -85,16 +85,16 @@
 	</section>
 	<!-- C O N D U C E -->
 	<section>
-		<div class="container-fluid">
+		<div class="container-fluid" id="div-pesado">
 			<div class="row">
-				<div class="col-md-12 col-xs-12" id="img-conduce">
-					<div id="fondoInfo-conduce" class="col-md-4 col-lg-4 col-xs-12">
-						<div id="info-conduce">
-							<h1>Conduce cuando quieras</h1>
-							<p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-							<button>Conviértete en conductor</button>
+				<div class="col-md-12 col-xs-12 col-lg-12" id="img-conduce">
+						<div id="fondoInfo-conduce" class="col-md-offset-8 col-lg-offset-8 col-xs-0">
+							<div id="info-conduce">
+								<h1>Conduce cuando quieras</h1>
+								<p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+								<button>Conviértete en conductor</button>
+							</div>
 						</div>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -107,19 +107,19 @@
 					<div class="col-md-6 info-mapa">
 						<h1>Tarifas</h1>
 						<h4>Consulta las tarifas LabCar aquí</h4>
-						<div class="col-md-12 div-inputs">
-							<span class="glyphicon glyphicon-record"></span>
+						<div class="col-md-12 col-lg-12 col-xs-10 div-inputs">
+							<span><img src="assets/image/img/circulo.png"></span>
 							<input type="text" placeholder="Ingrese punto de partida" id="partida">
 						</div>
 						<div class="col-md-12 div-inputs col-lg-12 col-xs-10">
-							<span class="glyphicon glyphicon-chevron-right"></span>
+							<span><img src="assets/image/img/flecha.png"></span>
 							<input type="text" placeholder="Ingrese un destino" id="destino">
 						</div>
 						<button>¡TRAZAR RUTA!</button>
 						
 					</div>
 					<div class="row hidden-xs">
-						<div class="col-xs-12 col-md-5 cuadrado-map" id="map">
+						<div class="col-md-5 col-lg-5 cuadrado-map" id="map">
 
 						</div>
 					</div>
@@ -184,7 +184,7 @@
 		</div>
 	</footer>
 	<script async defer
-	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDh1s1P6_6XY_BgwOsKfkh45OpbsH5dGAk&callback=initMap"></script>
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDh1s1P6_6XY_BgwOsKfkh45OpbsH5dGAk&callback=initMap&libraries=places"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
