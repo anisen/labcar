@@ -1,0 +1,11 @@
+
+@media (max-width: @screen-xs-max){
+	.hero-responsive{
+		margin-top: 50px;
+		margin-left: 50px;
+		color: white;
+	}
+	.hero-responsive {
+
+	}
+}

@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Lato', sans-serif;
 }
 /*  N  A V */
 .contenedor-nav{
@@ -77,7 +78,7 @@
 }
 #contenedor-info{
 	background-color: #f7b617;
-	border: 2px solid white;
+	border: 1px solid white;
 	border-left: none;
 	height: 430px;
 	margin-top: 40px;
@@ -114,6 +115,19 @@
 }
 #info-conduce{
 	color: white;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+#info-conduce p{
+	font-size: 16px;
+}
+#info-conduce button{
+	border-style: none;
+	border-radius: 5px;
+	background-color: #f7b617;
+	width: 250px;
+	padding: 10px;
+	font-size: 18px;
 }
 
 /* T A R I F A S */
@@ -143,6 +157,7 @@
 }
 .div-inputs{
 	padding-bottom: 20px;
+	width: 550px;
 }
 .div-inputs span{
 	font-size: 20px;
